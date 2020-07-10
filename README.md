@@ -13,12 +13,12 @@ To train the model, run FactorVAE.ipynb
 
 # Latent traversal
 Results of latent traversal.
-Each column indicate individual latent dimensions.
+Each column indicates individual latent dimensions.
 
 ![](img/LatentTraversal.png)
 
-The reason of the noisy image is the gaussian constrain is not worked insufficient.
-I seem the solution is increasing batch size and decreasing learning rate.
-And also the decreasing latent dimension is important.
+The reason for the noisy image is the gaussian constrain which is not worked insufficiently.
+I seem the solution is increasing batch size and decreasing the learning rate.
+And also discriminator loss and total correlation loss is not balanced so it may be affected. 
 
 ![](img/LatentRepresentation.png)
