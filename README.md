@@ -1,6 +1,5 @@
 # FactorVAE
-***Not completed to tune parameters.***
-
+![](img/latent_traversal.gif)
 A tensorflow 2.0 implementation of the FactorVAE algorithm.
 
 Disentangling by Factorising (Kim & Mnih, 2018) https://arxiv.org/pdf/1802.05983.pdf
@@ -13,5 +12,13 @@ To train the model, run FactorVAE.ipynb
 ![](img/Training.png)
 
 # Latent traversal
-The hypothesis of the failing latent traversal is overfitting or loss balance and inappropriate hyperparameter because the traversal is partially success.
+Results of latent traversal.
+Each column indicate individual latent dimensions.
+
 ![](img/LatentTraversal.png)
+
+The reason of the noisy image is the gaussian constrain is not worked insufficient.
+I seem the solution is increasing batch size and decreasing learning rate.
+And also the decreasing latent dimension is important.
+
+![](img/LatentRepresentation.png)
