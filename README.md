@@ -17,7 +17,7 @@ Each column indicates individual latent dimensions.
 
 ![](img/LatentTraversal.png)
 
-The reason for the noisy image is the gaussian constrain which is not worked insufficiently.
+The reason for the noisy result of latent traversal is the gaussian constrain which is not worked insufficiently.
 I seem the solution is increasing batch size and decreasing the learning rate.
 And also discriminator loss and total correlation loss is not balanced so it may be affected. 
 
