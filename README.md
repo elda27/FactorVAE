@@ -1,6 +1,9 @@
 # FactorVAE
 ![](img/latent_traversal.gif)
+
+
 A tensorflow 2.0 implementation of the FactorVAE algorithm.
+(Not original implementation)
 
 Disentangling by Factorising (Kim & Mnih, 2018) https://arxiv.org/pdf/1802.05983.pdf
 
